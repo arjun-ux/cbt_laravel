@@ -14,7 +14,7 @@
             <th>Role Nama</th>
         </thead>
         <tbody>
-            @foreach ($getData as $d)
+            @foreach ($getSiswa as $d)
             <tr>
                 {{-- <td>{{ $d->name }}</td> --}}
                 <td>{{ $d->name }}</td>
